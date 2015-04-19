@@ -77,7 +77,7 @@ class PDOx {
 	
 	}
 	
-	public function select($select) {
+	public function select($select='*') {
 	
 		$this->select = $select;
 		
